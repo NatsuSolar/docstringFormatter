@@ -1,0 +1,2 @@
+# requirements.txt
+# "docstringFormatter(ver.1.0.0)" needs not import of any module.
