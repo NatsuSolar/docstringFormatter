@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "docstringFormatter"
-version = "1.0.0a"
 description = "Format docstring to be able to entry in DeepL or GoogleTranslate"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -13,7 +12,7 @@ authors = [
   { name="Aoi Natsuki", email="blautinte8@gmail.com" },
 ]
 maintainers = [
-  {name = "BlauTinte", email = "blautinte8@gmail.com"}
+  {name = "Blau Tinte", email = "blautinte8@gmail.com"}
 ]
 keywords = [
     "docstringFormatter",
@@ -47,14 +46,16 @@ Documentation = "https://github.com/NatsuSolar/docstringFormatter/blob/main/READ
 Repository = "https://github.com/NatsuSolar/docstringFormatter"
 Changelog = "https://github.com/NatsuSolar/docstringFormatter/blob/main/CHANGELOG.md"
 Bug_Tracker = "https://github.com/NatsuSolar/docstringFormatter/issues"
-dynamic = ["version", "description"]
+dynamic = ["readme"]
 
+[tool.setuptools]
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
-exclude = ["build", "tests"]
+exclude = ["build", "TEST", "SampleTextfile"]
 
 [tool.setuptools.dynamic]
-version = {attr = "src.docstringFormatter.__version__"}
+readme = {file = ["README.md", "README.rst"], content-type = "text/md"}
 
 [tool.setuptools_scm]
 write_to = "src/docstringFormatter/_version.py"
