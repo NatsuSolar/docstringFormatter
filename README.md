@@ -49,17 +49,7 @@ __ You can use the function just adjust content of `main()` in code.
 2. Easy to Read  
 __ Console display is designated simply and reasonably.
 3. Easy to Introduce  
-__ Ofcourse introducing to your code is also simple.  
-__ First import at top in your cord.  
-__ And Just copy & paste the content of `main()` to the appropriate line.  
-__ main() is showed on "Usage" below.
-```python
-# import sentences example in case you'll copy & paste contents of main()
-from docstringFormatter import docstring_formatter
-from docstringFormatter import console_constructor
-from docstringFormatter import txt_outputter
-```
-  
+__ Mainly 2ways to use are described in this README.  
 
 # Requirement
  
@@ -77,7 +67,11 @@ pip install docstringFormatter
 ```
  
 # Usage
- 
+There are 2 way for usage.
+One hand is (1) script running alone. Another is (2) import functions (or whole module).  
+
+## (1) Run the "docstringFormatter.py" and use the main() in itself
+
 Open the python file named "docstringFormatter.py" with any text editor and so on.  
 
 Then change the assignment for var `name_object` in `main()` to the identifier of the object you want to get docstring.  
@@ -111,7 +105,23 @@ def main():
     # Setting at main() --> name_obj=name_object, times_red=0, rmv_t=False, rmv_n=False
 
 ```
- 
+## (2) Importing three functions by copy&paste contents of main()
+Introducing to your code is also simple.  
+
+First import at top in your cord.The example is shown below. 
+
+And Just copy & paste the contents of `main()` to the appropriate line.  
+Remember to delete the left side indent of pasted code.
+
+```python
+# import sentences example in case you'll copy & paste contents of main()
+from src.docstringFormatter import docstring_formatter
+from src.docstringFormatter import console_constructor
+from src.docstringFormatter import txt_outputter
+```
+## Import as a module not multi functions
+Sure, you can import this script as a module. If you can code, try it yourself!
+
 # Note
  
 I don't test the Environments under Linux and Mac.
