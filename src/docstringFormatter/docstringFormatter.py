@@ -20,8 +20,8 @@ def docstring_formatter(name_obj: object,
 
          :param name_obj: name of object which has docstring
          :param times_red: how times to repeat space reducing
-         :param rmv_t: True is needed to remove '\t' and True is default
-         :param rmv_n: True is needed to remove '\n' and True is default
+         :param rmv_t: True is needed to remove '\\t' and True is default
+         :param rmv_n: True is needed to remove '\\n' and True is default
          :return: formatted docstring as str_type
     """
 
