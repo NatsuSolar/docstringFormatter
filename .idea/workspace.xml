@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a852609-c432-436a-a0e8-e84b6e53d8f9" name="変更" comment="### [Add] Reform dir tree and Correct escape sequence of docstring &#10;&#10;**Summary**&#10;1. Making dir &quot;src&quot; and dir docstringFormatter relocate under that.&#10;    - To not &quot;TEST&quot; dir allow being packaged.&#10;2. (L23-24)Correct escape sequence of docstring.&#10;    - &quot;\&quot; ---&gt; &quot;\\&quot;&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;&#10;-- [Add] Reform dir tree and Correct escape sequence of docstring&#10;&#10;```&#10;root&#10;├── (Add) src&#10;│   └──(Add) src\docstringFormatter&#10;│         └── (Add) src\docstringFormatter\docstringFormatter.py&#10;│         └── (Add) src\docstringFormatter\__init__.py&#10;│&#10;├── ( ___ ) SampleTextfile&#10;│   ├── ( ___ ) SampleTextfile\TextOutput_DefaultSetting_at_main().txt&#10;│   └── ( ___ ) SampleTextfile\TextOutput_OriginalSentenceSetting_at_main().txt&#10;├──( ___ ) TEST&#10;│   └── ( ___ ) TEST\__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── ( ___ ) LICENSE&#10;├── ( ___ ) MANIFEST.in&#10;├── ( ___ ) README.md&#10;├── ( ___ ) requirements.txt&#10;└── ( ___ ) TEST-requirements.txt&#10;```&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files)&#10;2. [2022年版pyproject.tomlを使ったPythonパッケージの作り方](https://qiita.com/ieiringoo/items/4bef4fc9975803b08671#flat-layout-%E3%81%AE%E5%A0%B4%E5%90%88)&#10;&#10;#★★★☆☆&#10;#docstringFormatter &#10;#tree #src #src-layout&#10;#str #escape sequence #\n #\t">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aoi Natsuki &lt;72324129+natsusolar@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NatsuSolar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="84852b6d-f111-455b-b625-62b7e501a379" />
+        <option name="url" value="https://github.com/NatsuSolar/docstringFormatter.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2TVxq2vTHugc1ApLZOWIAehrZvp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/tanab/PycharmProjects/InfomationManagement"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tanab\PycharmProjects\docstringFormatter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tanab\PycharmProjects\docstringFormatter\src" />
+      <recent name="C:\Users\tanab\PycharmProjects\docstringFormatter\TEST" />
+      <recent name="C:\Users\tanab\PycharmProjects\docstringFormatter" />
+      <recent name="C:\Users\tanab\PycharmProjects\docstringFormatter\SampleTextfile" />
+      <recent name="C:\Users\tanab\PycharmProjects\docstringFormatter\docstringFormatter" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="0a852609-c432-436a-a0e8-e84b6e53d8f9" name="変更" comment="" />
+      <created>1691142236582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691142236582</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1691143028122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691143028122</updated>
+    </task>
+    <task id="LOCAL-00002" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691143378088</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691143378088</updated>
+    </task>
+    <task id="LOCAL-00003" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691153772404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691153772404</updated>
+    </task>
+    <task id="LOCAL-00004" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691154158148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691154158148</updated>
+    </task>
+    <task id="LOCAL-00005" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691154523448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691154523448</updated>
+    </task>
+    <task id="LOCAL-00006" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691154862221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691154862221</updated>
+    </task>
+    <task id="LOCAL-00007" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691155783470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691155783470</updated>
+    </task>
+    <task id="LOCAL-00008" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691155898471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691155898471</updated>
+    </task>
+    <task id="LOCAL-00009" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691156359931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156359931</updated>
+    </task>
+    <task id="LOCAL-00010" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691156572053</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156572053</updated>
+    </task>
+    <task id="LOCAL-00011" summary="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691157355766</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691157355766</updated>
+    </task>
+    <task id="LOCAL-00012" summary="### [Add] Reform dir tree and Correct escape sequence of docstring &#10;&#10;**Summary**&#10;1. Making dir &quot;src&quot; and dir docstringFormatter relocate under that.&#10;    - To not &quot;TEST&quot; dir allow being packaged.&#10;2. (L23-24)Correct escape sequence of docstring.&#10;    - &quot;\&quot; ---&gt; &quot;\\&quot;&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;&#10;-- [Add] Reform dir tree and Correct escape sequence of docstring&#10;&#10;```&#10;root&#10;├── (Add) src&#10;│   └──(Add) src\docstringFormatter&#10;│         └── (Add) src\docstringFormatter\docstringFormatter.py&#10;│         └── (Add) src\docstringFormatter\__init__.py&#10;│&#10;├── ( ___ ) SampleTextfile&#10;│   ├── ( ___ ) SampleTextfile\TextOutput_DefaultSetting_at_main().txt&#10;│   └── ( ___ ) SampleTextfile\TextOutput_OriginalSentenceSetting_at_main().txt&#10;├──( ___ ) TEST&#10;│   └── ( ___ ) TEST\__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── ( ___ ) LICENSE&#10;├── ( ___ ) MANIFEST.in&#10;├── ( ___ ) README.md&#10;├── ( ___ ) requirements.txt&#10;└── ( ___ ) TEST-requirements.txt&#10;```&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files)&#10;2. [2022年版pyproject.tomlを使ったPythonパッケージの作り方](https://qiita.com/ieiringoo/items/4bef4fc9975803b08671#flat-layout-%E3%81%AE%E5%A0%B4%E5%90%88)&#10;&#10;#★★★☆☆&#10;#docstringFormatter &#10;#tree #src #src-layout&#10;#str #escape sequence #\n #\t">
+      <option name="closed" value="true" />
+      <created>1691222628673</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691222628673</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) README.rst&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t" />
+    <MESSAGE value="### [Add] Upload ALL Files for Package&#10;&#10;**Summary**&#10;1. Upload ALL Files for Package&#10;    - Some files(e.g. README.md,README.rst) are unfinished.&#10;2. Format docstring to be able to entry in DeepL or GoogleTranslate.&#10;    - You can try this function in main() at near bottom of this code.&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;&#10;-- [Add] Upload ALL Files for Package&#10;&#10;root&#10;├── (Add) docstringFormatter&#10;│   ├── (Add) docstringFormatter/__init__.py&#10;│   └── (Add) docstringFormatter/docstringFormatter.py&#10;├── (Add) SampleTextfile&#10;│   ├── (Add) SampleTextfile/TextOutput_DefaultSetting_at_main().txt&#10;│   └── (Add) SampleTextfile/TextOutput_OriginalSentenceSetting_at_main().txt&#10;├── (Add) TEST&#10;│   └── (Add) TEST/__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── (Add) LICENSE&#10;├── (Add) MANIFEST.in&#10;├── (Add) README.md&#10;├── (Add) requirements.txt&#10;└── (Add) TEST-requirements.txt&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [YYYYY](https://github.com)&#10;2. [YYYYY](https://github.com)&#10;3. [YYYYY](https://github.com)&#10;&#10;#★★★★★&#10;#docstring_formatter_for_DeepL&amp;GoogleTranslate&#10;#translate #DeepL #GoogleTranslate&#10;#space deleting  #replace() #str #escape sequence #\n #\t" />
+    <MESSAGE value="### [Add] Reform dir tree and Correct escape sequence of docstring &#10;&#10;**Summary**&#10;1. Making dir &quot;src&quot; and dir docstringFormatter relocate under that.&#10;    - To not &quot;TEST&quot; dir allow being packaged.&#10;2. (L23-24)Correct escape sequence of docstring.&#10;    - &quot;\&quot; ---&gt; &quot;\\&quot;&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;&#10;-- [Add] Reform dir tree and Correct escape sequence of docstring&#10;&#10;```&#10;root&#10;├── (Add) src&#10;│   └──(Add) src\docstringFormatter&#10;│         └── (Add) src\docstringFormatter\docstringFormatter.py&#10;│         └── (Add) src\docstringFormatter\__init__.py&#10;│&#10;├── ( ___ ) SampleTextfile&#10;│   ├── ( ___ ) SampleTextfile\TextOutput_DefaultSetting_at_main().txt&#10;│   └── ( ___ ) SampleTextfile\TextOutput_OriginalSentenceSetting_at_main().txt&#10;├──( ___ ) TEST&#10;│   └── ( ___ ) TEST\__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── ( ___ ) LICENSE&#10;├── ( ___ ) MANIFEST.in&#10;├── ( ___ ) README.md&#10;├── ( ___ ) requirements.txt&#10;└── ( ___ ) TEST-requirements.txt&#10;```&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files)&#10;2. [2022年版pyproject.tomlを使ったPythonパッケージの作り方](https://qiita.com/ieiringoo/items/4bef4fc9975803b08671#flat-layout-%E3%81%AE%E5%A0%B4%E5%90%88)&#10;&#10;#★★★☆☆&#10;#docstringFormatter &#10;#tree #src #src-layout&#10;#str #escape sequence #\n #\t" />
+    <option name="LAST_COMMIT_MESSAGE" value="### [Add] Reform dir tree and Correct escape sequence of docstring &#10;&#10;**Summary**&#10;1. Making dir &quot;src&quot; and dir docstringFormatter relocate under that.&#10;    - To not &quot;TEST&quot; dir allow being packaged.&#10;2. (L23-24)Correct escape sequence of docstring.&#10;    - &quot;\&quot; ---&gt; &quot;\\&quot;&#10;***************************************************&#10;Commit [XXXXX](https://github.com)&#10;&#10;-- [Add] Reform dir tree and Correct escape sequence of docstring&#10;&#10;```&#10;root&#10;├── (Add) src&#10;│   └──(Add) src\docstringFormatter&#10;│         └── (Add) src\docstringFormatter\docstringFormatter.py&#10;│         └── (Add) src\docstringFormatter\__init__.py&#10;│&#10;├── ( ___ ) SampleTextfile&#10;│   ├── ( ___ ) SampleTextfile\TextOutput_DefaultSetting_at_main().txt&#10;│   └── ( ___ ) SampleTextfile\TextOutput_OriginalSentenceSetting_at_main().txt&#10;├──( ___ ) TEST&#10;│   └── ( ___ ) TEST\__init__.py&#10;├── (Add) CHANGELOG.md&#10;├── ( ___ ) LICENSE&#10;├── ( ___ ) MANIFEST.in&#10;├── ( ___ ) README.md&#10;├── ( ___ ) requirements.txt&#10;└── ( ___ ) TEST-requirements.txt&#10;```&#10;&#10;***************************************************&#10;### Reference URL&#10;1. [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-the-package-files)&#10;2. [2022年版pyproject.tomlを使ったPythonパッケージの作り方](https://qiita.com/ieiringoo/items/4bef4fc9975803b08671#flat-layout-%E3%81%AE%E5%A0%B4%E5%90%88)&#10;&#10;#★★★☆☆&#10;#docstringFormatter &#10;#tree #src #src-layout&#10;#str #escape sequence #\n #\t" />
+  </component>
+</project>

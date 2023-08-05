@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docstringFormatter"
+version = "1.0.0a"
+description = "Format docstring to be able to entry in DeepL or GoogleTranslate"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+  { name="Aoi Natsuki", email="blautinte8@gmail.com" },
+]
+maintainers = [
+  {name = "BlauTinte", email = "blautinte8@gmail.com"}
+]
+keywords = [
+    "docstringFormatter",
+    "docstring",
+    "formatter",
+    "DeepL",
+    "GoogleTranslate",
+    "delete",
+    "remove",
+    "indent",
+    "newline",
+    "tab",
+    "space",
+    "replace"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: The MIT License",
+    "Framework :: Flake8",
+    "Natural Language :: English",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Documentation"
+
+]
+[project.urls]
+Homepage = "https://github.com/NatsuSolar/docstringFormatter"
+Documentation = "https://github.com/NatsuSolar/docstringFormatter/blob/main/README.md"
+Repository = "https://github.com/NatsuSolar/docstringFormatter"
+Changelog = "https://github.com/NatsuSolar/docstringFormatter/blob/main/CHANGELOG.md"
+Bug_Tracker = "https://github.com/NatsuSolar/docstringFormatter/issues"
+dynamic = ["version", "description"]
+
+
+[tool.setuptools.packages.find]
+exclude = ["build", "tests"]
+
+[tool.setuptools.dynamic]
+version = {attr = "src.docstringFormatter.__version__"}
+
+[tool.setuptools_scm]
+write_to = "src/docstringFormatter/_version.py"
