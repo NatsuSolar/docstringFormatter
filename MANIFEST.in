@@ -1,5 +1,8 @@
 include LICENSE
 include *.md
 exclude README.md
+prune build
+prune dist
+prune TEST
 include requirements.txt
 include TEST-requirements.txt
