@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "docstringFormatter"
 description = "Format docstring to be able to entry in DeepL or GoogleTranslate"
+version = "1.0.0.2"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {file = "LICENSE"}
 authors = [
-  { name="Aoi Natsuki", email="blautinte8@gmail.com" },
+  { name= "Aoi Natsuki", email= "blautinte8@gmail.com" },
 ]
 maintainers = [
   {name = "Blau Tinte", email = "blautinte8@gmail.com"}
@@ -31,7 +32,7 @@ keywords = [
 classifiers = [
     "Programming Language :: Python :: 3.11",
     "Development Status :: 3 - Alpha",
-    "License :: OSI Approved :: The MIT License",
+    "License :: OSI Approved :: MIT License",
     "Framework :: Flake8",
     "Natural Language :: English",
     "Operating System :: Microsoft :: Windows",
@@ -40,22 +41,23 @@ classifiers = [
     "Topic :: Software Development :: Documentation"
 
 ]
+
 [project.urls]
 Homepage = "https://github.com/NatsuSolar/docstringFormatter"
 Documentation = "https://github.com/NatsuSolar/docstringFormatter/blob/main/README.md"
 Repository = "https://github.com/NatsuSolar/docstringFormatter"
 Changelog = "https://github.com/NatsuSolar/docstringFormatter/blob/main/CHANGELOG.md"
 Bug_Tracker = "https://github.com/NatsuSolar/docstringFormatter/issues"
-dynamic = ["readme"]
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
 exclude = ["build", "TEST", "SampleTextfile"]
 
 [tool.setuptools.dynamic]
 readme = {file = ["README.md", "README.rst"], content-type = "text/md"}
+
 
 [tool.setuptools_scm]
 write_to = "src/docstringFormatter/_version.py"
