@@ -144,6 +144,10 @@ _- - - - - > Replace '☆' for '@'_
 * LinkedIn: [Aoi Natsuki](https://www.linkedin.com/in/aoi-natsuki)
  
 # License
-
- 
 "docstringFormatter" is under [MIT license](https://opensource.org/license/mit).
+  
+  
+  
+  
+  
+  
