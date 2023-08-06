@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "docstringFormatter"
 description = "Format docstring to be able to entry in DeepL or GoogleTranslate"
+version = "1.0.0.2"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {file = "LICENSE"}
